@@ -1,0 +1,14 @@
+<svg width="55.00000000000001" height="80" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="11.212726" height="15.400329" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <path fill="none" d="m55,80l24,0l0,24l-24,0l0,-24z" id="svg_1"/>
+  <ellipse opacity="0" fill="#bdbdbd" stroke-width="null" stroke-opacity="null" cx="27.499999" cy="27.212034" id="svg_3" rx="25.892859" ry="25.000002" stroke="null"/>
+  <path d="m40.999842,14.84247l-26.76102,0c-1.83982,0 -3.32841,1.40602 -3.32841,3.12448l-0.01672,18.74693c0,1.71846 1.50531,3.12449 3.34513,3.12449l26.76102,0c1.83983,0 3.34513,-1.40603 3.34513,-3.12449l0,-18.74693c0,-1.71846 -1.5053,-3.12448 -3.34513,-3.12448zm-0.66902,6.63953l-11.82503,6.90512c-0.53522,0.31245 -1.2377,0.31245 -1.77292,0l-11.82503,-6.90512c-0.41814,-0.24996 -0.66902,-0.67176 -0.66902,-1.12481c0,-1.04671 1.22097,-1.67161 2.17433,-1.12482l11.20619,6.5458l11.20617,-6.5458c0.95336,-0.54679 2.17433,0.07811 2.17433,1.12482c0,0.45305 -0.25088,0.87485 -0.66902,1.12481z" id="svg_2" stroke="null" fill="#ffffff"/>
+  <text opacity="0" fill="#bdbdbd" stroke-width="0" stroke-opacity="null" x="6.628346" y="71.056896" id="svg_5" font-size="11" font-family="Oswald, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(1.194963870728935,0,0,1.4561135493403292,-0.12037042918854125,-28.30620690036456) " stroke="null">EMAIL</text>
+ </g>
+</svg>
