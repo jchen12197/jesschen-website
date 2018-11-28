@@ -73,7 +73,7 @@ a {
 .footer {
   background: #707070;
   padding: 40px;
-  position: relative;
+  position: sticky;
   top: 0%;
 }
 
@@ -85,10 +85,12 @@ a {
 
 .icon {
   padding: 20px 50px 20px 50px;
+  transition: all ease 0.2s;
 }
 
 .icon:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 
@@ -158,8 +160,8 @@ a {
 }
 
 .hobbies {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   left: 10%;
 
 }
@@ -252,6 +254,10 @@ a {
   width: 100%;
 }
 
+.info {
+  width: 80%;
+}
+
 .category-content {
   display: flex;
   flex-direction: row;
@@ -310,9 +316,14 @@ a {
   margin-top: 50px;
 }
 
+.hobbies-info {
+  width: 80%;
+}
+
 .html-ability, .js-ability, .java-ability, .python-ability,
 .c-ability, .r-ability, .chinese-ability, .english-ability,
-.korean-ability {
+.korean-ability, .data-ability, .finance-ability, .marketing-ability,
+.programming-ability, .teaching-ability, .development-ability {
   height: 20px;
   margin: 28px 0px 28px 50px;
   background: #E8B656;
@@ -353,6 +364,51 @@ a {
 .korean-ability {
   width: 170px;
 }
+
+.data-ability {
+  width: 100px;
+}
+
+.finance-ability {
+  width: 80px;
+}
+
+.marketing-ability {
+  width: 120px;
+}
+
+.programming-ability {
+  width: 140px;
+}
+
+.teaching-ability {
+  width: 100px;
+}
+
+.development-ability {
+  width: 110px;
+}
+
+.tool-type {
+  margin-bottom: 40px;
+}
+
+.tool-type h2 {
+  margin-bottom: 10px;
+}
+
+.grid-one, .grid-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.hera {
+  background-image: url("../img/hera.jpg");
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
 
 
 
@@ -409,8 +465,12 @@ a {
   z-index: 1;
   color: #FFFFFF;
   margin: 20px;
-
 }
+
+.proj-overlay a {
+  color: #FFFFFF;
+}
+
 .proj-overlay h3 {
   display: none;
   font-weight: 300;
@@ -430,4 +490,62 @@ a {
 
 .projects {
   margin-bottom: 100px;
+}
+
+
+/** Contact Page **/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.contact-message {
+  width: 40%;
+  text-align: center;
+}
+
+.contact-message h2 {
+  font-weight: 300;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.contact-method {
+  height: 250px;
+  width: 250px;
+  background: #E8B656;
+  border-radius: 50%;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.contact-method:hover {
+  transform: scale(1.1);
+}
+
+.contact-info a {
+  color: #FFFFFF;
+}
+
+.contact-info a h3:hover {
+  opacity: 0.7;
+}
+
+.contact-method img {
+  position: relative;
+  width: 70px;
+  height: 70px;
+
 }
