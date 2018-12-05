@@ -230,10 +230,7 @@ a {
 }
 
 .category-info {
-  top: 0 !important;
-  height: auto !important;
   display: none;
-  width: 100%;
 }
 
 .category-info h4 {
@@ -248,7 +245,7 @@ a {
   margin-bottom: 10px;
 }
 
-.info {
+.info, .category-info {
   top: 0 !important;
   height: auto !important;
   width: 100%;
@@ -256,6 +253,10 @@ a {
 
 .info {
   width: 80%;
+}
+
+.programming-languages-info, .hobbies-info, .work-experience.info {
+  height: auto !important;
 }
 
 .category-content {
@@ -330,11 +331,11 @@ a {
 }
 
 .java-ability {
-  width: 230px;
+  width: 210px;
 }
 
 .python-ability {
-  width: 230px;
+  width: 210px;
 }
 
 .c-ability {
@@ -342,7 +343,7 @@ a {
 }
 
 .html-ability {
-  width: 200px;
+  width: 190px;
 }
 
 .js-ability {
@@ -402,13 +403,6 @@ a {
   flex-direction: row;
 }
 
-.hera {
-  background-image: url("../img/hera.jpg");
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-}
-
 
 
 
@@ -431,6 +425,11 @@ a {
   align-items: flex-end;
   margin: 10px;
 
+}
+
+.website {
+  background-image: url("../img/website.png");
+  background-size: cover;
 }
 
 .bearmaps {

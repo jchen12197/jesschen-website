@@ -30,6 +30,17 @@ $(document).ready(function() {
       this.src = "./assets/img/icons/resume1.svg";
   });
 
+  $(".website").hover(
+    function() {
+      $(".website-overlay h3").slideDown();
+      $(".website-overlay .line").animate({width:'toggle'}, 400);
+    },
+    function() {
+      $(".website-overlay h3").slideUp();
+      $(".website-overlay .line").animate({width:'toggle'}, 400);
+    }
+  );
+
   $(".bearmaps").hover(
     function() {
       $(".bearmaps-overlay h3").slideDown();
