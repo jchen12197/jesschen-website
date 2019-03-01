@@ -322,7 +322,7 @@ a {
 }
 
 .html-ability, .js-ability, .java-ability, .python-ability,
-.c-ability, .r-ability, .chinese-ability, .english-ability,
+.c-ability, .cplusplus-ability, .r-ability, .sql-ability, .chinese-ability, .english-ability,
 .korean-ability, .data-ability, .finance-ability, .marketing-ability,
 .programming-ability, .teaching-ability, .development-ability {
   height: 20px;
@@ -342,6 +342,10 @@ a {
   width: 160px;
 }
 
+.cplusplus-ability {
+  width: 150px;
+}
+
 .html-ability {
   width: 190px;
 }
@@ -352,6 +356,11 @@ a {
 
 .r-ability {
   width: 160px;
+}
+
+.sql-ability {
+  width: 150px;
+
 }
 
 .chinese-ability {
