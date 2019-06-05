@@ -116,10 +116,10 @@ a {
 .profile-image {
   width: 400px;
   height: 400px;
-  background-image: url("../img/profile.png");
+  background-image: url("../img/profile1.jpg");
   background-size: cover;
   border-radius: 50%;
-  background-position: right;
+
   margin-right: 80px;
 
 }
